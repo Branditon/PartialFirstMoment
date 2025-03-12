@@ -1,0 +1,11 @@
+com/mycompany/coworkingreservations/resources/JakartaEE8Resource.class
+Persistence/exceptions/PreexistingEntityException.class
+Entity/CoworkingReservationsEntity_.class
+Controller/PageController.class
+com/mycompany/coworkingreservations/JakartaRestConfiguration.class
+Persistence/CoworkingReservationsEntityJpaController.class
+Entity/CoworkingReservationsEntity.class
+Controller/CoworkingReservationsController.class
+Persistence/exceptions/IllegalOrphanException.class
+Service/CoworkingReservationsService.class
+Persistence/exceptions/NonexistentEntityException.class

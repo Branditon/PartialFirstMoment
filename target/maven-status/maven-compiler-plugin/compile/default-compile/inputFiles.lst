@@ -1,0 +1,10 @@
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/Controller/CoworkingReservationsController.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/Controller/PageController.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/Entity/CoworkingReservationsEntity.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/Persistence/CoworkingReservationsEntityJpaController.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/Persistence/exceptions/IllegalOrphanException.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/Persistence/exceptions/NonexistentEntityException.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/Persistence/exceptions/PreexistingEntityException.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/Service/CoworkingReservationsService.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/com/mycompany/coworkingreservations/JakartaRestConfiguration.java
+/Users/brandonescudero/NetBeansProjects/CoworkingReservations/src/main/java/com/mycompany/coworkingreservations/resources/JakartaEE8Resource.java
