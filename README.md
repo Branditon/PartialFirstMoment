@@ -3,7 +3,7 @@ Repositorio para parcial primer momento back-end
 
 El proyecto esta implementado en la versión de java plataform jdk 17 y apache tomcat 9.0.100
 
-En el proyecto, se evidencia una estructura diferente a la que se solicitud, ya que no me gusta trabajar con una mala sintaxis y una mala estructura, pero en cada proceso hice comentarios de que se esta haciendo en cada uno de ellos 
+En el proyecto, se evidencia una estructura diferente a la que se solicitud, ya que me gusta trabajar con una sintaxis y estructura diferente, pero en cada proceso hice comentarios de que se esta haciendo en cada uno de ellos 
 
 Url para el acceso a la aplicación
 http://localhost:8080/CoworkingReservations/
