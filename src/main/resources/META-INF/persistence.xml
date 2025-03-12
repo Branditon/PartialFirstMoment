@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence               http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" 
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence 
+                                 http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  
+  <!-- Define a persistence unit for managing database interactions -->
   <persistence-unit name="PersistenceUnitBD" transaction-type="RESOURCE_LOCAL">
+    
+    <!-- Specify the JPA provider (EclipseLink in this case) -->
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    
+    <!-- Declare the entity class that will be mapped to a database table -->
     <class>Entity.CoworkingReservationsEntity</class>
+    
+    <!-- Allow automatic scanning of entity classes in the project -->
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    
     <properties>
+      <!-- Database connection settings -->
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/coworking_reservations?serverTimezone=UTC"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value=""/>
       
+      <!-- Enable automatic table creation based on entity classes -->
       <property name="eclipselink.ddl-generation" value="create-tables"/>
+      
+      <!-- Ensure the tables are created in the database -->
       <property name="eclipselink.ddl-generation.output-mode" value="database"/>
       
+      <!-- Enable logging for debugging SQL queries -->
       <property name="eclipselink.logging.level" value="FINE"/>
-      <property name="jakarta.persistence.schema-generation.database.action" value="create"/>
+      
+      <!-- Configure database schema generation at startup -->
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
     </properties>
+    
   </persistence-unit>
 </persistence>
